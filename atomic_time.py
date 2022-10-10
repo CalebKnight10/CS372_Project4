@@ -14,6 +14,7 @@ def nist_time():
 	s.close()
 	
 	hex_nist = int.from_bytes(message, "big")
+	
 	# print(mes)
 	#print(f"{hex_nist:04x}")
 	
